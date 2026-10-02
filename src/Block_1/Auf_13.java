@@ -22,9 +22,9 @@ public class Auf_13 {
 
                 if (antwort.equals("ja")){
 
-                    return zahlenraten(n,oG);
+                    return zahlenraten(n - 1,oG);
                 } else if(antwort.equals("nein")) {
-                    return zahlenraten(uG, n);
+                    return zahlenraten(uG, n + 1);
                 } else if(antwort.equals("gleich")) {
                     return (oG + uG) /2;
                 }
