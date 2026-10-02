@@ -17,12 +17,12 @@ public class Auf_9 {
         System.out.println("Zahl 3: ");
         int zahl3 = input.nextInt();
 
-        if ((zahl1 > zahl2 && zahl1 > zahl3)) {
+        if ((zahl1 > zahl2 && zahl1 > zahl3) || (zahl1 > zahl2 && zahl1 >= zahl3)) {
             System.out.println("Zahl 1 ist größten");
-        } else if ((zahl2 > zahl1 && zahl2 > zahl3)){
+        } else if ((zahl2 > zahl1 && zahl2 > zahl3) || (zahl2 >= zahl1 && zahl2 > zahl3)){
             System.out.println("Zahl 2 ist am größten");
         }
-        else if ((zahl3 > zahl1 && zahl3 > zahl2)) {
+        else if ((zahl3 > zahl1 && zahl3 > zahl2) || (zahl3 >= zahl1 && zahl3 > zahl2) ) {
             System.out.println("Zahl 3 ist am größten");
 
         }else {
