@@ -1,6 +1,6 @@
 package Block_0;
 
-public class Schleifen {
+/*public class Schleifen {
     public static void main(String[] args) {
         while(true){
 
@@ -15,3 +15,4 @@ public class Schleifen {
         }while(true);
     }
 }
+*/
